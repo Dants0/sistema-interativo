@@ -27,7 +27,7 @@ const Login = () => {
   }
 
   const validate = () => {
-    if (credentials.username !== 'Monica' && credentials.password !== '123') {
+    if (credentials.username !== 'admin' && credentials.password !== '123') {
       alert('Credentials incorrect.')
     } else {
       setTimeout(() => {
